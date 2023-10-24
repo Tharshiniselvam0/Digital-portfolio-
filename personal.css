@@ -264,8 +264,8 @@ background-color: #555;
 
 }
 .img-box img{
-    width: 100%;
-    max-width:350px;
+    width: 40%;
+    max-width:100px;
     height: auto;
 
 }
