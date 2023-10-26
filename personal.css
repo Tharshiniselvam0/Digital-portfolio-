@@ -883,4 +883,43 @@ ul li a:hover {
         transition: all .4s ease;
         
     }
+    #menu-icon.bx-x {  
+        transform: rotate(-180deg);
+    }
+    .navlist{
+
+
+        display: flex;
+        position: absolute;
+        top: -1000px;
+        right: 0;
+        left: 0;
+        flex-direction: column;
+        background: var(--bg-color);
+        text-align: left;
+        padding: 0 5%;
+        transition: all .45s ease;
+
+
+    }
+    .navlist a{
+        display: block;
+        padding-bottom: 1rem;
+        font-size: 1rem;
+
+    }
+    .navlist.open{
+        top: 100%;
+
+    }
+    .home{
+        grid-template-columns: 1fr;
+
+    }
+    .home-image{
+        margin-bottom: 5rem;
+        
+    }
+    
+}
 }
